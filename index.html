@@ -46,8 +46,8 @@
         <a href="#story">The story</a>
         <a href="#collection">Collection</a>
         <a href="#contact">Contact</a>
-        <button class="nav-bag" type="button" data-open-selection>
-          Selection <span class="selection-count" aria-label="0 items selected">0</span>
+        <button class="nav-bag" type="button" data-open-cart>
+        Cart <span class="cart-count" aria-label="0 items in cart">0</span>
         </button>
       </nav>
     </header>
@@ -133,68 +133,195 @@
               <h2 id="collection-title">A little heat.<br><em>A lot of presence.</em></h2>
             </div>
             <p class="collection__note">
-              A preview of the BURNING TREE direction. Product details and
-              pricing will be confirmed before launch.
+              Choose your colour and size, then add a piece to your cart.
+              Shipping details are confirmed after your order request.
             </p>
           </div>
 
           <div class="product-grid">
             <article class="product-card">
               <div class="product-card__image">
-                <img src="assets/look-streetwear.jpg" alt="Temporary editorial reference image for a streetwear look" loading="lazy" width="1100" height="1467">
-                <span class="product-card__tag">Preview · editorial reference</span>
+                <img src="assets/look-streetwear.jpg" alt="Editorial reference photo; product image to be provided" loading="lazy" width="1100" height="1467">
+                <span class="product-card__tag">Campaign reference</span>
                 <span class="product-card__number">01</span>
               </div>
               <div class="product-card__details">
                 <div>
-                  <p class="product-card__category">Streetwear / placeholder</p>
-                  <h3>Everyday statement</h3>
+                  <p class="product-card__category">T-shirt</p>
+                  <h3>Tyler Sdo T-shirt</h3>
                 </div>
-                <span class="product-card__price">Price to come</span>
+                <span class="product-card__price">R450</span>
               </div>
-              <button class="product-card__action" type="button" data-select-product="Everyday statement">
-                Add to selection <span aria-hidden="true">+</span>
-              </button>
-            </article>
-
-            <article class="product-card product-card--offset">
-              <div class="product-card__image">
-                <img src="assets/look-texture.jpg" alt="Temporary editorial reference image showing clothing and fabric" loading="lazy" width="1100" height="733">
-                <span class="product-card__tag">Preview · editorial reference</span>
-                <span class="product-card__number">02</span>
+              <div class="product-card__options">
+                <label>Colour
+                  <select class="product-option" data-option="color" aria-label="Tyler Sdo T-shirt colour">
+                    <option>Blue</option><option>Red</option><option>Beige</option><option>Brown</option><option>Pink</option><option>Black</option><option>White</option>
+                  </select>
+                </label>
+                <label>Size
+                  <select class="product-option" data-option="size" aria-label="Tyler Sdo T-shirt size">
+                    <option>XS</option><option>S</option><option>M</option><option>L</option><option>XL</option>
+                  </select>
+                </label>
               </div>
-              <div class="product-card__details">
-                <div>
-                  <p class="product-card__category">Elevated layers / placeholder</p>
-                  <h3>After-hours layer</h3>
-                </div>
-                <span class="product-card__price">Price to come</span>
-              </div>
-              <button class="product-card__action" type="button" data-select-product="After-hours layer">
-                Add to selection <span aria-hidden="true">+</span>
+              <button class="product-card__action" type="button" data-add-to-cart data-id="tyler-sdo-tee" data-name="Tyler Sdo T-shirt" data-price="450">
+                Add to cart <span aria-hidden="true">+</span>
               </button>
             </article>
 
             <article class="product-card">
               <div class="product-card__image">
-                <img src="assets/look-apparel.jpg" alt="Temporary editorial reference image of a curated clothing collection" loading="lazy" width="1100" height="733">
-                <span class="product-card__tag">Preview · editorial reference</span>
+                <img src="assets/look-texture.jpg" alt="Editorial reference photo; product image to be provided" loading="lazy" width="1100" height="733">
+                <span class="product-card__tag">Campaign reference</span>
+                <span class="product-card__number">02</span>
+              </div>
+              <div class="product-card__details">
+                <div>
+                  <p class="product-card__category">T-shirt</p>
+                  <h3>The Box T-shirt</h3>
+                </div>
+                <span class="product-card__price">R350</span>
+              </div>
+              <div class="product-card__options">
+                <label>Colour
+                  <select class="product-option" data-option="color" aria-label="The Box T-shirt colour">
+                    <option>Blue</option><option>Red</option><option>Beige</option><option>Brown</option><option>Pink</option><option>Black</option><option>White</option>
+                  </select>
+                </label>
+                <label>Size
+                  <select class="product-option" data-option="size" aria-label="The Box T-shirt size">
+                    <option>XS</option><option>S</option><option>M</option><option>L</option><option>XL</option>
+                  </select>
+                </label>
+              </div>
+              <button class="product-card__action" type="button" data-add-to-cart data-id="box-tee" data-name="The Box T-shirt" data-price="350">
+                Add to cart <span aria-hidden="true">+</span>
+              </button>
+            </article>
+
+            <article class="product-card">
+              <div class="product-card__image">
+                <img src="assets/look-apparel.jpg" alt="Editorial reference photo; product image to be provided" loading="lazy" width="1100" height="733">
+                <span class="product-card__tag">Campaign reference</span>
                 <span class="product-card__number">03</span>
               </div>
               <div class="product-card__details">
                 <div>
-                  <p class="product-card__category">Future essentials / placeholder</p>
-                  <h3>Legacy essential</h3>
+                  <p class="product-card__category">T-shirt</p>
+                  <h3>Tshwara T-shirt</h3>
                 </div>
-                <span class="product-card__price">Price to come</span>
+                <span class="product-card__price">R500</span>
               </div>
-              <button class="product-card__action" type="button" data-select-product="Legacy essential">
-                Add to selection <span aria-hidden="true">+</span>
+              <div class="product-card__options">
+                <label>Colour
+                  <select class="product-option" data-option="color" aria-label="Tshwara T-shirt colour">
+                    <option>Blue</option><option>Red</option><option>Beige</option><option>Brown</option><option>Pink</option><option>Black</option><option>White</option>
+                  </select>
+                </label>
+                <label>Size
+                  <select class="product-option" data-option="size" aria-label="Tshwara T-shirt size">
+                    <option>XS</option><option>S</option><option>M</option><option>L</option><option>XL</option>
+                  </select>
+                </label>
+              </div>
+              <button class="product-card__action" type="button" data-add-to-cart data-id="tshwara-tee" data-name="Tshwara T-shirt" data-price="500">
+                Add to cart <span aria-hidden="true">+</span>
+              </button>
+            </article>
+
+            <article class="product-card">
+              <div class="product-card__image">
+                <img src="assets/look-streetwear.jpg" alt="Editorial reference photo; product image to be provided" loading="lazy" width="1100" height="1467">
+                <span class="product-card__tag">Campaign reference</span>
+                <span class="product-card__number">04</span>
+              </div>
+              <div class="product-card__details">
+                <div>
+                  <p class="product-card__category">Jeans</p>
+                  <h3>Skinny Jeans</h3>
+                </div>
+                <span class="product-card__price">R650</span>
+              </div>
+              <div class="product-card__options">
+                <label>Colour
+                  <select class="product-option" data-option="color" aria-label="Skinny Jeans colour">
+                    <option>Black</option><option>Grey</option><option>Brown</option>
+                  </select>
+                </label>
+                <label>Size
+                  <select class="product-option" data-option="size" aria-label="Skinny Jeans size">
+                    <option>XS</option><option>S</option><option>M</option><option>L</option><option>XL</option>
+                  </select>
+                </label>
+              </div>
+              <button class="product-card__action" type="button" data-add-to-cart data-id="skinny-jeans" data-name="Skinny Jeans" data-price="650">
+                Add to cart <span aria-hidden="true">+</span>
+              </button>
+            </article>
+
+            <article class="product-card">
+              <div class="product-card__image">
+                <img src="assets/look-texture.jpg" alt="Editorial reference photo; product image to be provided" loading="lazy" width="1100" height="733">
+                <span class="product-card__tag">Campaign reference</span>
+                <span class="product-card__number">05</span>
+              </div>
+              <div class="product-card__details">
+                <div>
+                  <p class="product-card__category">Jeans</p>
+                  <h3>Baggy Jeans</h3>
+                </div>
+                <span class="product-card__price">R1,000</span>
+              </div>
+              <div class="product-card__options">
+                <label>Colour
+                  <select class="product-option" data-option="color" aria-label="Baggy Jeans colour">
+                    <option>Black</option><option>Grey</option><option>Brown</option>
+                  </select>
+                </label>
+                <label>Size
+                  <select class="product-option" data-option="size" aria-label="Baggy Jeans size">
+                    <option>XS</option><option>S</option><option>M</option><option>L</option><option>XL</option>
+                  </select>
+                </label>
+              </div>
+              <button class="product-card__action" type="button" data-add-to-cart data-id="baggy-jeans" data-name="Baggy Jeans" data-price="1000">
+                Add to cart <span aria-hidden="true">+</span>
+              </button>
+            </article>
+
+            <article class="product-card">
+              <div class="product-card__image">
+                <img src="assets/look-apparel.jpg" alt="Editorial reference photo; product image to be provided" loading="lazy" width="1100" height="733">
+                <span class="product-card__tag">Campaign reference</span>
+                <span class="product-card__number">06</span>
+              </div>
+              <div class="product-card__details">
+                <div>
+                  <p class="product-card__category">Jeans</p>
+                  <h3>Stretch Jeans</h3>
+                </div>
+                <span class="product-card__price">R700</span>
+              </div>
+              <div class="product-card__options">
+                <label>Colour
+                  <select class="product-option" data-option="color" aria-label="Stretch Jeans colour">
+                    <option>Black</option><option>Grey</option><option>Brown</option>
+                  </select>
+                </label>
+                <label>Size
+                  <select class="product-option" data-option="size" aria-label="Stretch Jeans size">
+                    <option>XS</option><option>S</option><option>M</option><option>L</option><option>XL</option>
+                  </select>
+                </label>
+              </div>
+              <button class="product-card__action" type="button" data-add-to-cart data-id="stretch-jeans" data-name="Stretch Jeans" data-price="700">
+                Add to cart <span aria-hidden="true">+</span>
               </button>
             </article>
           </div>
           <p class="collection__disclaimer">
-            These are concept categories, not confirmed products. Campaign images are temporary references.
+            Prices are in South African rand. Photos are editorial references, not images of the listed products.
+            Delivery charges and availability will be confirmed in reply to your order request.
           </p>
         </div>
       </section>
@@ -292,31 +419,47 @@
       </div>
     </footer>
 
-    <dialog class="selection-dialog" id="selection-dialog" aria-labelledby="selection-title">
+    <dialog class="selection-dialog cart-dialog" id="cart-dialog" aria-labelledby="cart-title">
       <div class="selection-dialog__top">
         <div>
-          <p class="eyebrow">Your shortlist</p>
-          <h2 id="selection-title">Your selection<span class="selection-count">0</span></h2>
+          <p class="eyebrow">Your BURNING TREE order</p>
+          <h2 id="cart-title">Shopping cart <span class="cart-count" aria-label="0 items in cart">0</span></h2>
         </div>
-        <button class="selection-dialog__close" type="button" aria-label="Close selection" data-close-selection>×</button>
+        <button class="selection-dialog__close" type="button" aria-label="Close shopping cart" data-close-cart>×</button>
       </div>
-      <ul class="selection-list" id="selection-list"></ul>
-      <p class="selection-empty" id="selection-empty">Your selection is waiting for a first pick.</p>
+      <ul class="selection-list cart-list" id="cart-list"></ul>
+      <p class="selection-empty" id="cart-empty">Your cart is empty. Choose a piece from the collection to get started.</p>
+      <div class="cart-total">
+        <span>Items subtotal</span>
+        <strong id="cart-subtotal">R0</strong>
+      </div>
       <p class="selection-dialog__note">
-        This preview doesn’t take orders or process payments. Product availability,
-        prices, and an order link must be added by BURNING TREE.
+        This sends an unpaid order request by email—it does not take payment or confirm stock.
+        Delivery costs and final availability will be confirmed by BURNING TREE.
+        Your details are placed in your email draft; this website does not save or submit them.
       </p>
-      <button class="button button--gold selection-copy" type="button" id="copy-selection" disabled>
-        Copy selection details <span aria-hidden="true">↗</span>
+      <form class="checkout-form" id="checkout-form">
+        <h3>Contact and delivery details</h3>
+        <label for="customer-name">Full name</label>
+        <input id="customer-name" name="name" autocomplete="name" required>
+        <label for="customer-email">Email address</label>
+        <input id="customer-email" name="email" type="email" autocomplete="email" required>
+        <label for="customer-phone">Phone number</label>
+        <input id="customer-phone" name="phone" type="tel" autocomplete="tel" required>
+        <label for="delivery-address">Delivery address</label>
+        <textarea id="delivery-address" name="address" autocomplete="street-address" rows="3" required></textarea>
+        <button class="button button--gold selection-copy" type="submit" id="checkout-button" disabled>
+          Prepare email order request <span aria-hidden="true">↗</span>
+        </button>
+      </form>
+      <a class="button button--dark selection-copy" id="send-order-link" href="#" hidden>
+        Open order email draft <span aria-hidden="true">↗</span>
+      </a>
+      <p class="selection-status" id="cart-status" aria-live="polite"></p>
+      <textarea class="selection-copy-fallback" id="order-copy-fallback" aria-label="Order request details to copy" readonly hidden></textarea>
+      <button class="button button--dark selection-copy" type="button" id="copy-order" hidden>
+        Copy order details <span aria-hidden="true">↗</span>
       </button>
-      <textarea
-        class="selection-copy-fallback"
-        id="selection-copy-fallback"
-        aria-label="Selection details to copy"
-        readonly
-        hidden
-      ></textarea>
-      <p class="selection-status" id="selection-status" aria-live="polite"></p>
     </dialog>
   </body>
 </html>
