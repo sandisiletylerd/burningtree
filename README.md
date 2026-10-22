@@ -20,7 +20,8 @@ A responsive, static fashion-brand storefront for BURNING TREE, built with HTML,
 - Replace the three **preview categories**, sample product names, and “Price to come” labels with the actual catalogue, descriptions, options, and prices.
 - Connect the order path to the real shop/checkout service or provide an official order email/link. The selection dialog is a local shortlist only; it does not submit an order or take payment.
 - Connect the drop-alert signup form to a mailing-list provider or backend. Its current preview handler does not transmit or store submitted email addresses.
-- Add verified business contact details, social profile links, and any legal/privacy pages required for the business and the mailing-list provider.
+- Review the published email and social links in `index.html` and confirm the profiles use the `@burning.tree` handle.
+- Add any legal/privacy pages required for the business and the mailing-list provider.
 - Replace the temporary Unsplash editorial-reference photographs in `assets/` with brand-owned or properly licensed campaign and product photography. The current image captions and collection note identify the photos as references, not product representations.
 - Review all brand copy, product details, spelling, and prices against approved business information before publishing.
 

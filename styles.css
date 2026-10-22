@@ -919,11 +919,36 @@ p {
   line-height: 1.4;
 }
 
-.contact__placeholder {
-  margin-bottom: 1.4rem;
+.contact-links {
+  display: grid;
+  gap: 0.85rem;
+  margin: 1.4rem 0 1.6rem;
+}
+
+.contact-links a {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.3rem 0.9rem;
+  color: var(--ink);
+  font-size: 0.78rem;
+  font-weight: 600;
+  overflow-wrap: anywhere;
+  transition: color 180ms ease;
+}
+
+.contact-links a:hover {
+  color: var(--burnt);
+}
+
+.contact-links a span:first-child {
+  width: 8.3rem;
+  flex: 0 0 8.3rem;
   color: var(--muted);
-  font-size: 0.72rem;
-  line-height: 1.7;
+  font-size: 0.62rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .site-footer {
